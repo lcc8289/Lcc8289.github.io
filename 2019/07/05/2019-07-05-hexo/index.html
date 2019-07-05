@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Hexo,">
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="每日隨筆記錄">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nothing">
-<meta property="og:url" content="https://lcc8289.github.io/index.html">
+<meta name="description" content="前言 Hexo 檔案都放在 post 資料夾下，不容易分類。所以，標籤頁及分類頁需人工生成。  參考資料：Hexo新增標籤及分類頁面   文章太長加入read more 語法  參考資料： Hexo - 前端也能建置部落格！更換主題與發表文章篇   建立新文章   建立標籤頁及分類頁語法輸入以下語法產生標籤(tags)及分類(categories)資料夾。 hexo new page tags h">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 小技巧">
+<meta property="og:url" content="https://lcc8289.github.io/2019/07/05/2019-07-05-hexo/index.html">
 <meta property="og:site_name" content="Nothing">
-<meta property="og:description" content="每日隨筆記錄">
+<meta property="og:description" content="前言 Hexo 檔案都放在 post 資料夾下，不容易分類。所以，標籤頁及分類頁需人工生成。  參考資料：Hexo新增標籤及分類頁面   文章太長加入read more 語法  參考資料： Hexo - 前端也能建置部落格！更換主題與發表文章篇   建立新文章   建立標籤頁及分類頁語法輸入以下語法產生標籤(tags)及分類(categories)資料夾。 hexo new page tags h">
 <meta property="og:locale" content="zh-TW">
+<meta property="og:updated_time" content="2019-07-05T04:42:44.322Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nothing">
-<meta name="twitter:description" content="每日隨筆記錄">
+<meta name="twitter:title" content="Hexo 小技巧">
+<meta name="twitter:description" content="前言 Hexo 檔案都放在 post 資料夾下，不容易分類。所以，標籤頁及分類頁需人工生成。  參考資料：Hexo新增標籤及分類頁面   文章太長加入read more 語法  參考資料： Hexo - 前端也能建置部落格！更換主題與發表文章篇   建立新文章   建立標籤頁及分類頁語法輸入以下語法產生標籤(tags)及分類(categories)資料夾。 hexo new page tags h">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://lcc8289.github.io/">
+  <link rel="canonical" href="https://lcc8289.github.io/2019/07/05/2019-07-05-hexo/">
 
 
 
 
 
-  <title>Nothing</title>
+  <title>Hexo 小技巧 | Nothing</title>
   
 
 
@@ -154,8 +156,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -270,9 +271,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -302,9 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/05/2019-07-05-hexo/" itemprop="url">Hexo 小技巧</a></h1>
+          <h1 class="post-title" itemprop="name headline">Hexo 小技巧</h1>
         
 
         <div class="post-meta">
@@ -386,8 +385,7 @@
       
 
       
-        
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ol>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ol>
 <li><p>Hexo 檔案都放在 post 資料夾下，不容易分類。所以，標籤頁及分類頁需人工生成。</p>
 <ul>
 <li>參考資料：<a href="https://hsiangfeng.github.io/hexo/20190413/1568146247/" target="_blank" rel="noopener">Hexo新增標籤及分類頁面</a></li>
@@ -404,14 +402,13 @@
 <h2 id="建立標籤頁及分類頁"><a href="#建立標籤頁及分類頁" class="headerlink" title="建立標籤頁及分類頁"></a>建立標籤頁及分類頁</h2><h3 id="語法"><a href="#語法" class="headerlink" title="語法"></a>語法</h3><p>輸入以下語法產生標籤(tags)及分類(categories)資料夾。</p>
 <pre><code>hexo new page tags
 hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_config.yml</code>，將<code>tages</code>及<code>categories</code>前面的<code>#</code>移除即可。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/07/05/2019-07-05-hexo/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+<a id="more"></a>
+<h3 id="修改頁面"><a href="#修改頁面" class="headerlink" title="修改頁面"></a>修改頁面</h3><p>進入 <code>soure/tages</code>及<code>soure/categries</code>資料夾，開啟<code>index.md</code>，加入以下資訊：</p>
+<pre><code>type: &quot;tages&quot;
+type: &quot;categories&quot;</code></pre><h2 id="插入read-more"><a href="#插入read-more" class="headerlink" title="插入read more"></a>插入read more</h2><p>加在文章要被隱藏的段落之前</p>
+<pre><code>&lt;!-- more --&gt;</code></pre><h3 id="如何建立新文章"><a href="#如何建立新文章" class="headerlink" title="如何建立新文章"></a>如何建立新文章</h3><p>新增文章</p>
+<pre><code>hexo new [layout] &lt;title&gt;
+//layout 預設為 source/_post</code></pre>
       
     </div>
     
@@ -426,179 +423,36 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lcc8289.github.io/2019/07/04/2019-07-04-how/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="by Cherry">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Nothing">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/04/2019-07-04-how/" itemprop="url">使用Hexo建置網站</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-04T00:00:00+08:00">
-                2019-07-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/07/04/2019-07-04-how/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/04/2019-07-04-how/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
-<li>youtube：<a href="https://www.youtube.com/watch?v=jOJI9ekTzK8" target="_blank" rel="noopener">使用 Hexo 建構個人化部落格</a></li>
-<li>共筆文件：<a href="https://paper.dropbox.com/doc/Hexo--7zSMDUvNPffmjdilVv3AA" target="_blank" rel="noopener">講義</a></li>
-</ul>
-<h2 id="軟體工具準備"><a href="#軟體工具準備" class="headerlink" title="軟體工具準備"></a>軟體工具準備</h2><ul>
-<li>安裝 <a href="https://nodejs.org/zh-tw/download/" target="_blank" rel="noopener">Node.js</a></li>
-<li>安裝 <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li>
-<li>使用工具：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">visual studio code</a></li>
-<li>Hexo：<a href="https://hexo.io/zh-tw/" target="_blank" rel="noopener">文件</a></li>
-</ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/07/04/2019-07-04-how/#more" rel="contents">
-              Read more &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/04/2019-07-04-how/" rel="next" title="使用Hexo建置網站">
+                <i class="fa fa-chevron-left"></i> 使用Hexo建置網站
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -608,10 +462,11 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -621,6 +476,20 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
           
 	          <div style>
           	  
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
 	           </div>
         </div>
@@ -642,8 +511,17 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -703,6 +581,22 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立標籤頁及分類頁"><span class="nav-number">2.</span> <span class="nav-text">建立標籤頁及分類頁</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#語法"><span class="nav-number">2.1.</span> <span class="nav-text">語法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改頁面"><span class="nav-number">2.2.</span> <span class="nav-text">修改頁面</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入read-more"><span class="nav-number">3.</span> <span class="nav-text">插入read more</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如何建立新文章"><span class="nav-number">3.1.</span> <span class="nav-text">如何建立新文章</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -839,6 +733,10 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -856,6 +754,18 @@ hexo new page categories</code></pre><p>建立完成後找到主題<code>theme/_
       <script id="dsq-count-scr" src="https://Lcc8289.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://lcc8289.github.io/2019/07/05/2019-07-05-hexo/';
+          this.page.identifier = '2019/07/05/2019-07-05-hexo/';
+          this.page.title = 'Hexo 小技巧';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Lcc8289.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
